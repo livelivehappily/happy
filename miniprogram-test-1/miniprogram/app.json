@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/community/community",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "居居乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#666",
+    "selectedColor":"#56abe4",
+    "backgroundColor": "#F1F1F1",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/home/home",
+      "iconPath":"images/tabBar/home1.png",
+      "selectedIconPath":"images/tabBar/home2.png",
+      "text": "首页"
+    },{
+      "pagePath":"pages/community/community",
+      "iconPath": "images/tabBar/community1.png",
+      "selectedIconPath":"images/tabBar/community2.png",
+      "text":"社区"
+    },{
+      "pagePath":"pages/me/me",
+      "iconPath": "images/tabBar/me1.png",
+      "selectedIconPath":"images/tabBar/me2.png",
+      "text":"主页"
+    }],
+    "position":"bottom"
+  }
+}
